@@ -20,6 +20,8 @@ body{
     background-color: #fff;
     padding: 10px 30px;
     border-radius: 10px;
+    background-image: linear-gradient(to bottom right,pink,white);
+    box-shadow: 5px 5px 16px #999;
 }
 img{
     width: 60px;
@@ -40,6 +42,9 @@ label,input{
 input{
     margin-bottom: 20px;
     padding: 5px;
+    outline: none;
+    border: none;
+    box-shadow: 5px 5px 9px #999;
 }
 input[type=email]{
     background-image: url('email.png');
